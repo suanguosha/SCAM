@@ -1,5 +1,5 @@
 # SCAM
-三国杀群内助手（Sanguosha's Cash grAb Machine）
+三国杀群内助手（Sanguosha Campaign Assistant Module）
 
 ## 项目介绍
 SCAM三国杀群内助手是一款Chrome拓展程序，方便群内爱好者快速禁将，减去记禁将规则的学习成本。
