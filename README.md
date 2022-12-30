@@ -9,18 +9,19 @@ SCAM三国杀群内助手是一款Chrome拓展程序，方便群内爱好者快�
 * 添加/编辑/删除订阅地址: 添加/编辑/删除订阅地址，自定义标题和备注，自动更新最新禁将规则
 * 切换规则: 在多个军八群打群内,每家禁将规则都不同？ 没关系，我们支持一键切换规则！
 
+### 视频教程
+[![【三国杀群内助手】自定义禁将规则，选将界面自动禁将](https://i1.hdslb.com/bfs/archive/3484907a3e91ad891fdfc3b3af38ef89c687654f.jpg@620w_400h)](https://www.bilibili.com/video/BV1sU4y1z7bn/?share_source=copy_web&vd_source=460ff5462374ae88e4ab0a257aec172a)
+
 ### 效果图
 <img src="docs/demo.gif" width="500">
 <img src="docs/gui.gif" width="500">
 
-## RoadMap
-当前进度: 
-* 已实现选将界面屏蔽武将（静态/动态皮肤都支持!）
-* 已实现自定义禁将并生成订阅地址
-* 已实现添加/编辑/删除订阅地址
-* 已实现修改旧禁将规则
+## 原理
+编辑禁将规则后生成新的规则json集到me7on/sgsRules  
+拓展程序读取json，根据规则查找被禁武将（通过武将皮肤ID匹配），并替换图片进行遮挡    
 
-计划: 
-* 根据实际禁将规则，有条件的屏蔽武将!
-* 切换规则还没做，等第一条完成！
-* 等以上完成，第一版crx会release，敬请期待!
+## Contribution
+因本人时间关系，以及三国杀武将更新频繁，新增武将不再维护。  
+贡献源码请点这里，本仓库只用于发布crx！  
+<https://github.com/suanguosha/Sinferno>
+
